@@ -1,0 +1,579 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
+</head>
+
+<body class="bg-black text-gray-200 font-sans relative">
+    <div class="flex mx-auto relative">
+
+        <div class="first md:justify-end m-4 w-12 md:w-[70%] pr-10">
+
+            <div class="sidebar flex sticky top-0 h-screen justify-center md:justify-end">
+
+                <ul class="flex flex-col text2xl space-y-2 md:px-11 w-full">
+
+                    <div class="logo invert mr-20">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)]  hover:cursor-pointer px-4 py-2 rounded-3xl transition-all duration-300">
+                        <span class="material-symbols-outlined text-3xl">
+                            Home
+                        </span>
+                        <span class="hidden md:block">Home</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)]  hover:cursor-pointer px-4 py-2 rounded-3xl transition-all duration-300">
+                        <span class="material-symbols-outlined text-3xl">
+                            search
+                        </span>
+                        <span class="hidden md:block">Explore</span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)]  hover:cursor-pointer px-4 py-2 rounded-3xl transition-all duration-300">
+                        <span class="material-symbols-outlined text-3xl">
+                            notifications
+                        </span>
+                        <span class="hidden md:block">Notifications</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer  px-4 py-2  rounded-3xl transition-all duration-300">
+                        <span class="material-symbols-outlined text-3xl">
+                            chat
+                        </span>
+                        <span class="hidden md:block">Messages</span>
+                    </li>
+                    <li
+                        class=" hidden md:block md:flex items-center justify-center md:justify-start gap-3 px-4 py-2 w-full md:w-fit rounded-3xl transition-all duration-300 hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer">
+                        <img src="grok (1).svg" alt="grok logo" class="w-6 h-6 md:w-8 md:h-8 " />
+            
+                        <span class="hidden md:block">Grok</span>
+                    </li>
+
+                    
+
+
+                    <li
+                        class= " md:hidden flex items-center justify-center md:justify-start gap-3 px-4 py-2 w-full md:w-fit rounded-3xl transition-all duration-300 hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer">
+                        <span class="material-symbols-outlined text-3xl">
+                            Bookmark
+                        </span>
+                        <span class="hidden md:block"></span>
+                    </li>
+
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)]  hover:cursor-pointer px-4 py-2  rounded-3xl transition-all duration-300">
+                        <span class="material-symbols-outlined text-3xl">
+                            group
+                        </span>
+                        <span class="hidden md:block">Communities</span>
+                    </li>
+
+                    <div class="logo invert mr-20 md:hidden">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <li
+                        class="md:hidden flex items-center justify-center md:justify-start gap-3 px-4 py-2 w-full md:w-fit rounded-3xl transition-all duration-300 hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer">
+                        <span class="material-symbols-outlined">
+                            bolt
+                        </span>
+                        <span class="hidden md:block"></span>
+                    </li>
+
+
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer  px-4 py-2  rounded-3xl transition-all duration-300 ">
+                        <span class="material-symbols-outlined text-3xl">
+                            person
+                        </span>
+                        <span class="hidden md:block">Profile</span>
+                    </li>
+                    <li
+                        class="flex md:justify-start items-center justify-center gap-4 md:w-fit hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer  px-4 py-2  rounded-3xl transition-all duration-300">
+                        <span class="material-symbols-outlined text-3xl">
+                            pending
+                        </span>
+                        <span class="hidden md:block">More</span>
+                    </li>
+                    <li>
+                        <button
+                            class=" hidden md:block bg-gray-50  hover:bg-gray-200 px-28 py-4 text-xl font-bold text-black rounded-full hover:cursor-context-menu ">Post</button>
+
+                        <button
+                            class="block md:hidden bg-sky-500  hover:bg-gray-200 px-2 py-1 mr-2 text-xl font-bold text-black rounded-full hover:cursor-context-menu "><span
+                                class="md:hidden material-symbols-outlined text-3xl">
+                                Draw
+                            </span></button>
+                    </li>
+                    <li>
+                        <div
+                            class="photo flex items-center justify-center md:justify-start md:w-fit my-6 py-3 px-6 hover:bg-[rgba(231,233,234,0.1)] rounded-full gap-2">
+                           
+                            <img src="vineet.jpg" alt="Vineet Yadav" class="w-12 h-12 rounded-full object-cover" />
+
+                            <div class="hidden md:flex justify-between items-center w-full">
+                                <div>
+                                    <h2 class="text-xl font-semibold">Vineet Yadav</h2>
+                                    <p class="text-gray-400 text-sm">@Vineet112111</p>
+                                </div>
+                                <p class="text-2xl text-gray-500 cursor-pointer">...</p>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li
+                        class="md:hidden flex items-center justify-center md:justify-start gap-3 px-4 py-2 w-full md:w-fit rounded-3xl transition-all duration-300 hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer">
+                        <img src="vineet.jpg" alt="Vineet Yadav" class="w-12 h-12 rounded-full object-cover" />
+                        <span class="hidden md:block"></span>
+                    </li>
+
+                    
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="second  border-[1px] w-[150%] border-gray-500 border-y-black">
+
+            <div class="top flex w-full sticky top-0 border-b-2 border-b-gray-500 bg-black z-50">
+
+                <div class="left w-1/2 p-4 flex justify-center text-xl  font-bold hover:bg-[rgba(231,233,234,0.1)]">For
+                    you</div>
+                <div class="underline bg-sky-600 h-1 w-1/6 bottom-0 left-[16%] absolute"></div>
+                <div class="right w-1/2 p-4 flex justify-center text-xl font-bold hover:bg-[rgba(231,233,234,0.1)]">
+                    Following</div>
+
+            </div>
+
+
+
+            <div class="For_you ">
+                <div class="up flex  items-center ">
+                    <div class="photo m-4">
+                        <img src="vineet.jpg" alt="vineet" class="w-12 h-12 rounded-full object-cover">
+                    </div>
+                    <div class="text w-full">
+                        <input type="text" placeholder="What's happening?"
+                            class="bg-black focus:outline-none text-gray-200 w-full py-2 px-2 placeholder:text-2xl" />
+                    </div>
+
+                </div>
+                <div class="reply">
+                    <a href="#" class="flex pl-20 items-center text-sky-600 font-bold pb-2"><img src="global.svg"
+                            alt="global"> &nbsp;Everyone can reply</a>
+                </div>
+
+
+                <div class="hr bg-gray-500 h-[1px] w-[87%] ml-16"> </div>
+
+
+                <div class="lower flex justify-between items-center text-sky-600 w-full p-4">
+                    <div class="icon flex gap-[15px] p-2 pl-14">
+                        <img src="gallery.svg" alt="gallery icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                        <img src="gif.svg" alt="gif icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                        <img src="grok (1).svg" alt="grok icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                        <img src="poll.svg" alt="poll icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                        <img src="emoji.svg" alt="emoji icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                        <img src="calender.svg" alt="calender icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                        <img src="location.svg" alt="location icon" class="w-6 h-6 hover:cursor-pointer rounded-full ">
+
+                    </div>
+                    <div
+                        class="button bg-gray-500 text-xl font-bold text-black rounded-full px-4 hover:cursor-context-menu py-2">
+                        Post</div>
+                </div>
+
+                <div class="hr bg-gray-500 h-[1px] w-[100%] "> </div>
+
+            </div>
+
+
+            <div
+                class="show_post text-sky-600 w-full text-center p-4 hover:bg-[rgba(231,233,234,0.1)] hover:cursor-pointer font-bold">
+                Show 175 posts</div>
+
+            <div class="hr bg-gray-500 h-[1px] w-[100%] "> </div>
+
+            <div class="posts">
+                <div class="post hover:bg-[rgba(252,253,253,0.1)] hover:cursor-pointer">
+                    <div class="post_block mx-5">
+                        <header class="flex items-center gap-4">
+                            <img src="https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_IIIT_Sonepat_Logo.png"
+                                alt="vineet" class="w-12 h-12 rounded-full object-cover m-2">
+                            <div class="text flex justify-between items-center w-full">
+                                <div class="profile flex gap-2">
+                                    <h2 class="text-xl font-semibold">IIIT Sonepat</h2>
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                    <p class="text-gray-400">@IIIT_Sonepat</p>
+                                    <p class="text-gray-400"> . Jun 11</p>
+                                </div>
+                                <div class="more flex items-center gap-2">
+                                    <img src="grok (1).svg" alt="grok icon"
+                                        class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                                    <p class="hover:text-sky-500">. . .</p>
+                                </div>
+                            </div>
+                        </header>
+                        <section class="main ml-16 mt-2 text-lg text-gray-300">
+                            <p>
+                                IIIT Sonepat and NIT Delhi have officially signed an MoU to strengthen academic ties and
+                                foster joint research collaborations. A step forward towards innovation, knowledge
+                                sharing, and academic excellence!
+                            </p>
+                            <div class="image">
+                                <img class="mt-5 border-gray-400 outline-yellow-50 rounded-2xl"
+                                    src="https://pbs.twimg.com/media/GtKuFpNXUAEgH5I?format=jpg&name=4096x4096"
+                                    alt="image">
+                            </div>
+
+                            <footer>
+                                <ul class="flex justify-between text-sm text-gray-400 mt-4">
+                                    <li class="flex justify-start items-center gap-1 w-fit hover:text-blue-500 ">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(114,196,236,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            chat_bubble
+                                        </span>
+                                        123
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  hover:text-green-500">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(127,197,174,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            Screen_Rotation_Up
+                                        </span>
+                                        3.4K
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  hover:text-red-500">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(226,76,138,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            favorite
+                                        </span>
+                                        12.1K
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  hover:text-blue-500">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(93,166,202,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            bar_chart
+                                        </span>
+                                        88
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  ">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(107,181,218,0.1)] hover:text-blue-500 hover:cursor-pointer p-2 rounded-full">
+                                            bookmark
+                                        </span>
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(85,172,216,0.1)]  hover:text-blue-500 hover:cursor-pointer p-2 rounded-full">
+                                            upload
+                                        </span>
+
+                                    </li>
+                                </ul>
+                            </footer>
+                        </section>
+
+
+                    </div>
+                    <div class="hr bg-gray-500 h-[1px] w-[100%] "> </div>
+                    <footer>
+
+                    </footer>
+
+                </div>
+                <div class="post m-0 hover:bg-[rgba(252,253,253,0.1)] hover:cursor-pointer">
+                    <div class="post_block mx-5">
+                        <header class="flex items-center gap-4">
+                            <img src="https://pbs.twimg.com/profile_images/1744218382612971520/zmlYm9Rf_400x400.jpg"
+                                alt="vineet" class="w-12 h-12 rounded-full object-cover m-2">
+                            <div class="text flex justify-between items-center w-full">
+                                <div class="profile flex gap-2">
+                                    <h2 class="text-xl font-semibold">Rahul Gandhi</h2>
+                                    <svg viewBox="0 0 22 22" aria-label="Verified account" role="img"
+                                        class="w-5 r-4qtqp9 r-yyyyoo r-1xvli5t r-bnwqim r-lrvibr r-m6rgpd r-f9ja8p r-og9te1 r-3t4u6i"
+                                        data-testid="icon-verified">
+                                        <g>
+                                            <path clip-rule="evenodd"
+                                                d="M12.05 2.056c-.568-.608-1.532-.608-2.1 0l-1.393 1.49c-.284.303-.685.47-1.1.455L5.42 3.932c-.832-.028-1.514.654-1.486 1.486l.069 2.039c.014.415-.152.816-.456 1.1l-1.49 1.392c-.608.568-.608 1.533 0 2.101l1.49 1.393c.304.284.47.684.456 1.1l-.07 2.038c-.027.832.655 1.514 1.487 1.486l2.038-.069c.415-.014.816.152 1.1.455l1.392 1.49c.569.609 1.533.609 2.102 0l1.393-1.49c.283-.303.684-.47 1.099-.455l2.038.069c.832.028 1.515-.654 1.486-1.486L18 14.542c-.015-.415.152-.815.455-1.099l1.49-1.393c.608-.568.608-1.533 0-2.101l-1.49-1.393c-.303-.283-.47-.684-.455-1.1l.068-2.038c.029-.832-.654-1.514-1.486-1.486l-2.038.07c-.415.013-.816-.153-1.1-.456zm-5.817 9.367l3.429 3.428 5.683-6.206-1.347-1.247-4.4 4.795-2.072-2.072z"
+                                                fill="#829aab" fill-rule="evenodd"></path>
+                                        </g>
+                                    </svg>
+                                    <p class="text-gray-400">@RahulGandhi</p>
+                                    <p class="text-gray-400"> . 7h</p>
+                                </div>
+                                <div class="more flex items-center gap-2">
+                                    <img src="grok (1).svg" alt="grok icon"
+                                        class="w-6 h-6 hover:cursor-pointer rounded-full ">
+                                    <p class="hover:text-sky-500">. . .</p>
+                                </div>
+                            </div>
+                        </header>
+                        <section class="main ml-16 mt-2 text-lg text-gray-300">
+                            <p>
+                                Humble tributes to former Chief Minister of Andhra Pradesh, Y.S. Rajasekhara Reddy
+                                ji, on his birth anniversary.
+                                <br><br>
+                                A visionary leader who devoted his life to the welfare of the people of Andhra
+                                Pradesh and made countless contributions to their upliftment.
+                                <br><br>
+                                He will always be remembered for his unwavering commitment and selfless service to the
+                                public.
+                            </p>
+                            <img class="mt-5 border-gray-400 outline-yellow-50 rounded-2xl"
+                                src="https://pbs.twimg.com/media/GvTzyADWoAAabcV?format=jpg&name=medium" alt="photo">
+
+                            <footer>
+                                <ul class="flex justify-between text-sm text-gray-400 mt-4">
+                                    <li class="flex justify-start items-center gap-1 w-fit hover:text-blue-500 ">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(114,196,236,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            chat_bubble
+                                        </span>
+                                        311
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  hover:text-green-500">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(127,197,174,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            Screen_Rotation_Up
+                                        </span>
+                                        2.6K
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  hover:text-red-500">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(226,76,138,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            favorite
+                                        </span>
+                                        11K
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  hover:text-blue-500">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(93,166,202,0.1)]  hover:cursor-pointer p-2 rounded-full">
+                                            bar_chart
+                                        </span>
+                                        72
+                                    </li>
+                                    <li class="flex justify-start items-center gap-1 w-fit  ">
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(107,181,218,0.1)] hover:text-blue-500 hover:cursor-pointer p-2 rounded-full">
+                                            bookmark
+                                        </span>
+                                        <span
+                                            class="material-symbols-outlined text-xl hover:bg-[rgba(85,172,216,0.1)]  hover:text-blue-500 hover:cursor-pointer p-2 rounded-full">
+                                            upload
+                                        </span>
+
+                                    </li>
+                                </ul>
+                            </footer>
+                        </section>
+
+
+                    </div>
+                    <div class="hr bg-gray-500 h-[1px] w-[100%] my-2"> </div>
+                    <footer>
+
+                    </footer>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="third w-full hidden md:block">
+
+            <div class="search w-full flex justify-center items-center sticky top-0 bg-black">
+                <input type="text" placeholder="Search"
+                    class="border border-gray-500 rounded-full mx-8 my-2 py-2 px-4  bg-black text-xl placeholder-white" />
+            </div>
+
+
+            <div class="premium m-8 border border-gray-500 px-4 rounded-xl">
+                <h1 class="subscribe text-3xl font-bold text-gray-200  w-full my-4 mx-4 "> Subscribe to Premium </h1>
+                <p class="text-white w-full px-4 pb-2">Subscribe to unlock new features and if eligible, receive a share
+                    of revenue.</p>
+                <button class="bg-sky-500 text-white py-2 px-4 m-4 rounded-full hover:bg-sky-600 ">Subscribe</button>
+            </div>
+
+
+            <div class="whatshappening m-8 border border-gray-500 px-4 rounded-xl">
+
+                <h1 class="text-3xl font-bold text-gray-200 break-words w-full max-w-full my-4 mx-4">What's happening
+                </h1>
+
+                <div
+                    class="flex trend gap-4 bg-black p-4 hover:bg-[rgba(231,233,234,0.1)]  transition-all duration-300 hover:cursor-pointer">
+                    <div class="photo">
+                        <img src="trendimage.jpg" alt="trend image" class="w-20 h-20 rounded-lg object-cover">
+                    </div>
+                    <div class="text">
+                        <h2 class="text-xl font-semibold">NFL Top 100 Countdown</h2>
+                        <p class="text-gray-400">Live</p>
+                    </div>
+                </div>
+
+                <div class="hover:cursor-pointer trending flex flex-col space-y-1  w-full ">
+                    <div class="trend bg-black p-4  hover:bg-[rgba(231,233,234,0.1)]  transition-all duration-300">
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-400">Trending in India</p>
+                            <p class="hover:text-sky-500">. . .</p>
+                        </div>
+                        <h2 class="text-xl font-semibold">Karbala</h2>
+                        <p class="text-gray-400">#31.5K posts</p>
+                    </div>
+                    <div class="trend bg-black p-4  hover:bg-[rgba(231,233,234,0.1)]  transition-all duration-300">
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-400">Entertainment · Trending</p>
+                            <p class="hover:text-sky-500">. . .</p>
+                        </div>
+                        <h2 class="text-xl font-semibold">सरकारी स्कूल</h2>
+                        <p class="text-gray-400">24.9K posts</p>
+                    </div>
+                    <div class="trend bg-black p-4  hover:bg-[rgba(231,233,234,0.1)]  transition-all duration-300">
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-400">Entertainment · Trending</p>
+                            <p class="hover:text-sky-500">. . .</p>
+                        </div>
+                        <h2 class="text-xl font-semibold">#sanjaydutt</h2>
+                        <p class="text-gray-400">1,076 posts</p>
+                    </div>
+
+                    <div
+                        class="trend bg-black p-4 w-full hover:bg-[rgba(231,233,234,0.1)]  transition-all duration-300">
+                        <div class="flex justify-between items-center">
+                            <p class="text-gray-400">Politics · Trending</p>
+                            <p class="hover:text-sky-500">. . .</p>
+                        </div>
+                        <h2 class="text-xl font-semibold">Tibet</h2>
+                        <p class="text-gray-400">20.5K posts</p>
+                    </div>
+
+                    <div
+                        class="trend  rounded-xl bg-black p-4  hover:bg-[rgba(231,233,234,0.1)]  transition-all duration-300">
+
+                        <p class="text-blue-400 text-xl"><a href="#"> Show more </a></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="whotofollow m-8 border border-gray-500 rounded-xl">
+
+                <h1 class="text-3xl font-bold text-gray-200  w-full my-4 mx-4">Who to follow
+                </h1>
+
+                <div
+                    class="follow hover:cursor-pointer flex gap-2 md:gap-4 bg-black p-4 md:p-4 hover:bg-[rgba(231,233,234,0.1)] transition-all duration-300">
+                    <div class="photo">
+                        <img src="bts.jpg" alt="bts image" class="w-12 h-12 md:w-14 md:h-14 rounded-lg object-cover">
+                    </div>
+                    <div class="flex justify-between items-center w-full">
+                        <div class="text">
+                            <h2 class="text-lg md:text-xl font-semibold flex items-center">
+                                BTS_officiali &nbsp;<img src="checkyellow.webp" alt="check" width="16">
+                            </h2>
+                            <p class="text-gray-400 text-sm">@bts_bighit</p>
+                        </div>
+                        <button
+                            class="bg-white text-black  px-3 md:py-2 md:px-4 m-2 md:m-4 rounded-full hover:bg-gray-200 text-sm md:text-base">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="follow flex gap-2 md:gap-4 bg-black p-4 md:p-4 hover:bg-[rgba(231,233,234,0.1)] transition-all duration-300">
+                    <div class="photo">
+                        <img src="hubble.jpeg" alt="hubble image"
+                            class="w-12 h-12 md:w-14 md:h-14 rounded-lg object-cover">
+                    </div>
+                    <div class="flex justify-between items-center w-full">
+                        <div class="text">
+                            <h2 class="text-lg md:text-xl font-semibold flex items-center">
+                                Hubble &nbsp;<img src="checkicon.jpg" alt="check" width="16">
+                            </h2>
+                            <p class="text-gray-400 text-sm">@NASAHubble</p>
+                        </div>
+                        <button
+                            class="bg-white text-black px-3 md:py-2 md:px-4 m-2 md:m-4 rounded-full hover:bg-gray-200 text-sm md:text-base">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+                <div
+                    class="follow flex gap-2 md:gap-4 bg-black p-4 md:p-4 hover:bg-[rgba(231,233,234,0.1)] transition-all duration-300">
+                    <div class="photo">
+                        <img src="google.jpg" alt="google image"
+                            class="w-12 h-12 md:w-14 md:h-14 rounded-lg object-cover">
+                    </div>
+                    <div class="flex justify-between items-center w-full">
+                        <div class="text">
+                            <h2 class="text-lg md:text-xl font-semibold flex items-center">
+                                Google &nbsp;<img src="checkicon.jpg" alt="check" width="16">
+                            </h2>
+                            <p class="text-gray-400 text-sm">@Google</p>
+                        </div>
+                        <button
+                            class="bg-white text-black px-3 md:py-2 md:px-4 m-2 md:m-4 rounded-full hover:bg-gray-200 text-sm md:text-base">
+                            Follow
+                        </button>
+                    </div>
+                </div>
+
+
+                <div
+                    class="follow rounded-xl bg-black p-4 md:p-4 hover:bg-[rgba(231,233,234,0.1)] transition-all duration-300">
+                    <p class="text-blue-400 text-base md:text-xl"><a href="#"> Show more </a></p>
+                </div>
+
+            </div>
+
+
+            <div class="last p-8">
+                <p class="text-gray-400"><a href="#" class="hover:underline">Terms of Service</a> | <a href="#"
+                        class="hover:underline">Privacy Policy</a> | <a href="#" class="hover:underline">Cookie
+                        Policy</a> | &nbsp; &nbsp; <a href="#" class="hover:underline">More ...</a> &nbsp;&nbsp; © 2025
+                    X Corp.</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
