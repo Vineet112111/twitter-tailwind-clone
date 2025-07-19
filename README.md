@@ -4,7 +4,7 @@ A responsive **Twitter Home Page UI clone** built using **HTML** and **Tailwind 
 
 ## 🔗 Live Demo
 
-[Click here to view live](https://Vineet112111.github.io/twitter-clone/)  
+[Click here to view live](https://vineet112111.github.io/twitter-tailwind-clone/)
 
 ## 🖼️ Preview
 
